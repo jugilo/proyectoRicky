@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.target-show{
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.target-show span{
+    display: block;
+}
+.target-show__img img{
+    width: 80%;
+    height: 200px;
+}
