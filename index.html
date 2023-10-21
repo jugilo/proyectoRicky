@@ -8,39 +8,38 @@
 </head>
 <body>
     <header>
-
+        <h1>Rick y Morty</h1>
     </header>
-    <main>
 
-        <div class="target-form">
+
+    <main class="main">
+        <div class="form">
             <form action="">
                 <label for="id_personajes">Personajes</label>
                 <input id="id_personajes" list="personajes">
                 <datalist id="personajes">
                 </datalist>
             </form>
-            <button onclick="getValue()">Show</button>
+            <button id="button" class="button">Show</button>
         </div>
 
-        <div class="target-show">
-            <div class="target-show__img">
-                <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4282,h_2408,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/12up_es_international_web/01g7hy5zf33b4q8ecdpd.jpg" alt="">
+        <div class="card">
+            <div class="card__img">
+                <img id="img" src="" alt="">
             </div>
-            <div class="target-show__info">
-                <ul id="ul">
-                   <span>hola</span>
-                   <span>hola</span>
-                   <span>hola</span>
-                   <span>hola</span>
-                   <span>hola</span>
-                </ul>
+            <div class="card__info">
+                <p><span >Nombre: </span><span id="name"></span></p>
+                <p><span >Especie: </span><span id="species"></span></p>
+                <p><span >Genero: </span><span id="gender"></span></p>
             </div>
         </div>
-
-        
     </main>
-    <footer>
 
+    <footer>
+        <span>Item 1</span>
+        <span>Item 2</span>
+        <span>Item 3</span>
+        <span>Item 4</span>
     </footer>
 </body>
 <script src="main.js"></script>
